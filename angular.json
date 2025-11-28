@@ -13,8 +13,8 @@
         "build": {
           "builder": "@angular/build:application",
           "options": {
-            "baseHref": "/my-portfolio/",
-            "browser": "src/main.ts",
+            "outputPath": "dist/my-portfolio",
+            "index": "src/index.html",
             "polyfills": [
               "zone.js"
             ],
